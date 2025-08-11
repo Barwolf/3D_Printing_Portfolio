@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Canvas } from "@react-three/fiber"
 import Printer from "../components/Printer.jsx"
+import Menu from "../components/Menu.jsx"
 
 import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
 import { Suspense } from "react"
@@ -45,6 +46,8 @@ const Hero = () => {
                     <directionalLight position={[10, 10, 10]} intensity={0.5}/>
                 </Suspense>
             </Canvas>
+
+            <Menu/>
         </div>
     </section>
     
