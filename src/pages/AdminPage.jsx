@@ -1,10 +1,9 @@
 import React from 'react'
-
-import AdminLogin from '../Components/Admin/AdminLogin'
+import AdminDashboard from '../Components/Admin/AdminDashboard'
 
 const AdminPage = () => {
   return (
-    <AdminLogin/>
+    <AdminDashboard/>
   )
 }
 
