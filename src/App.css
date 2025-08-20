@@ -1,2 +1,10 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "light";
+  --color-primary: #7cdcdb; /* Change the primary color to a dark gray */
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  --color-primary: #7cdcdb; /* Change the primary color to a light turquoise */
+}
